@@ -1,0 +1,8 @@
+<ivy-module version="2.0">
+  <info organisation="xalan" module="serializer" revision="2.7.1"/>
+  <publications>
+    	<artifact name="serializer" ext="jar" type="jar"/>
+  </publications>
+</ivy-module>
+
+
