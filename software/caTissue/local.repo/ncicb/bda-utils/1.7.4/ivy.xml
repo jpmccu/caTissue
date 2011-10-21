@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"
+                 href="http://gforge.nci.nih.gov/svnroot/commonlibrary/trunk/ivy-xsl/ivy.xsl"?>
+
+<ivy-module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3" xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+  <info module="bda-utils" organisation="ncicb" revision="1.7.4"/>
+
+  <configurations>
+    <conf name="master"/>
+    <conf name="compile"/>
+    <conf name="runtime"/>
+  </configurations>
+
+  <publications>
+	  <artifact conf="master, compile, runtime" name="bda-build-utils" type="xml"/>
+	  <artifact conf="master, compile, runtime" name="bda-build-utils" type="zip"/>
+  </publications>
+
+  <dependencies>
+	  <!-- for sending mail from ant, will come as depends to newest mail package
+	  <dependency conf="runtime" name="activation" org="javax.activation" rev="1.1"/>
+	  -->
+	  <!-- used in ant scripts -->
+	  <dependency name="ant-antunit" org="org.apache.ant" rev="1.1"/>
+	  <!-- used extensively in ant -->
+	  <dependency conf="runtime" name="ant-contrib" org="apache" rev="1.0nci"/>
+	  <!-- Deployed to applications -->
+	  <dependency conf="runtime" name="clm" org="ncicb" rev="3.2" transitive="false"/>
+	  <!-- used in ant scripts to verify connectivity/version of databases -->
+	  <dependency conf="runtime" name="dbconfig" org="dbconfig" rev="0.1.8"/>
+	  <!-- copied to deployment and used by ant for db tasks -->
+	  <dependency name="mysql-connector-java" org="mysql" rev="5.0.8"/>
+	  <!-- copied to deployment and used by ant for db tasks, rename of jar file requires update of build files -->
+	  <dependency name="postgresql" org="postgresql" rev="8.4-701.jdbc3"/>
+	  <!-- copied to deployment and used by ant for db tasks -->
+	  <dependency name="ojdbc14" org="com.oracle" rev="10.2.0.3.0"/>
+	  <!-- copied to deployment and used by ant for db tasks -->
+	  <dependency name="hsqldb" org="org.hsqldb" rev="1.8.0.10"/>
+	  <!-- for sending mail from ant -->
+	  <dependency name="mail" org="javax.mail" rev="1.4.1"/>
+	  <!-- for ssh/scp from ant -->
+	  <dependency name="jsch" org="com.jcraft" rev="0.1.41"/>
+	  <!-- for svn tasks from ant -->
+	  <dependency conf="runtime" name="svnant" org="org.tigris" rev="1.3"/>
+	  <!-- Custom taks for comparing template to file or memeory -->
+	  <dependency conf="runtime" name="propertyvalidator" org="ncicb" rev="0.1.8"/>
+	  <!-- Add grand functionality to ant -->
+	  <dependency conf="runtime" name="grand" org="ggtools" rev="1.8"/>
+	  <!-- Adds umlgraph functionality to ant -->
+	  <dependency conf="runtime" name="umlgraph" org="umlgraph" rev="5.2"/>
+	  <!-- Adds schema spy functionality to ant -->
+	  <dependency conf="runtime" name="schemaspy" org="schemaspy" rev="4.1.1"/>
+	  <!-- Custom task for build/test/static-analysis reporting -->
+	  <dependency conf="runtime" name="fusemetrics" org="fusemetrics" rev="1.0"/>
+	  <!-- Adds liquibase functionality to ant -->
+	  <dependency name="liquibase-core" org="org.liquibase" rev="1.9.3"/>
+	  <!-- Allows ant to execute groovy -->
+	  <dependency name="groovy-all" org="org.codehaus.groovy" rev="1.6.3"/>
+	  <!-- Ant lib files -->
+	  <dependency conf="runtime" name="ant" org="apache" rev="1.7.0">
+		  <include conf="runtime" name="ant-nodeps" type="jar"/>
+		  <include conf="runtime" name="ant-launcher" type="jar"/>
+		  <include conf="runtime" name="ant" type="jar"/>
+	  </dependency>
+	  <!-- Adds xmltask functionality to ant -->
+	  <dependency conf="runtime" name="xmltask" org="oopsconsultancy" rev="1.15.1"/>
+	  <!-- Adds bean scripting framework to ant -->
+	  <dependency name="bsf" org="bsf" rev="2.4.0"/>
+	  <!-- Added to make xmlcatalog stuff work -->
+	  <dependency conf="runtime" name="xml-commons-resolver" org="apache" rev="1.2"/>
+	  <!-- Ant Listener that reports timing on target and task execution -->
+	  <dependency conf="runtime" name="antutility" org="java.net" rev="r19"/>
+	  <dependency conf="runtime" name="uptconfigurator" org="ncicb" rev="0.0.1"/>
+	  <dependency name="commons-codec" org="commons-codec" rev="1.3"/>
+	  <!-- Library for grid HTTPSValve -->
+	  <dependency name="commons-logging" org="commons-logging" rev="1.1.1"/>
+	  <dependency name="expectj" org="net.sourceforge.expectj" rev="2.0"/>
+  </dependencies>
+
+</ivy-module>

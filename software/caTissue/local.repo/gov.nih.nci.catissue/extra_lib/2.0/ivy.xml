@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="extra_lib" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="ant-contrib" type="jar" />
+			<artifact name="commons-net-1.2.2" type="jar" />
+			<artifact name="hibernate3" type="jar" />
+			<artifact name="mysql-connector-java-5.0.8-bin" type="jar" />
+			<artifact name="oracleDriver" type="jar" />
+			<artifact name="servlet-api" type="jar" />
+			<artifact name="xerces" type="jar" />
+			<artifact name="xjavadoc-1.0.2" type="jar" />
+			<artifact name="xsdlib" type="jar" />
+			<artifact name="puretls" type="jar" />
+			<artifact name="cog-jglobus" type="jar" />
+			<artifact name="jce-jdk13-125" type="jar" />
+			<artifact name="cryptix-asn1" type="jar" />
+			<artifact name="cryptix32" type="jar" />
+			<artifact name="cryptix" type="jar" />
+	</publications>
+</ivy-module>

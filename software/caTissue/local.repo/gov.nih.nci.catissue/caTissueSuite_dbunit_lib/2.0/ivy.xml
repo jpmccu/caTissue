@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="DE_CA_caGrid_Service_lib" revision="2.0"
+		status="release" />
+		<publications>
+
+		<artifact name="dbunit-2.2.1-sources" type="jar"/>
+		<artifact name="dbunit-2.2.1" type="jar"/>
+		<artifact name="slf4j-api-1.5.2" type="jar"/>
+		<artifact name="slf4j-jcl-1.5.2" type="jar"/>
+	
+	</publications>
+</ivy-module>

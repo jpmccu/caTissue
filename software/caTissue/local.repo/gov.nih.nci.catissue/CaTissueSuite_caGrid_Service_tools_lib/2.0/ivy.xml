@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="CaTissueSuite_caGrid_Service_tools_lib" revision="2.0"
+		status="release" />
+		<publications>
+		 <artifact name="caGrid-Introduce-serviceTasks-1.2" type="jar"/>
+		 <artifact name="ant-contrib"  type="jar"/>		
+	</publications>
+</ivy-module>

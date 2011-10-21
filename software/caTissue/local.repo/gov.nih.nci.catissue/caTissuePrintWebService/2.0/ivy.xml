@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="caTissuePrintWebService" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="activation" type="jar" />
+			<artifact name="appserv-jstl" type="jar" />
+			<artifact name="commons-logging-1.0.4" type="jar" />
+			<artifact name="dom" type="jar" />
+			<artifact name="jax-qname" type="jar" />
+			<artifact name="jaxrpc-api" type="jar" />
+			<artifact name="jaxrpc-impl" type="jar" />
+			<artifact name="jaxrpc" type="jar" />
+			<artifact name="log4j-1.2.8" type="jar" />
+
+			<artifact name="log4j" type="properties" />
+
+			<artifact name="mail" type="jar" />
+			<artifact name="relaxngDatatype" type="jar" />
+			<artifact name="saaj-api" type="jar" />
+			<artifact name="xalan" type="jar" />
+			<artifact name="xercesImpl" type="jar" />
+			<artifact name="xsdlib" type="jar" />
+	</publications>
+</ivy-module>

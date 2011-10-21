@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="src_lib" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="dom4j-1.6.1" type="jar" />
+			<artifact name="j2ee" type="jar" />
+			<artifact name="log4j" type="jar" />
+			<artifact name="mysql-connector-java-5.0.8-bin" type="jar" />
+			<artifact name="ojdbc14" type="jar" />
+	</publications>
+</ivy-module>

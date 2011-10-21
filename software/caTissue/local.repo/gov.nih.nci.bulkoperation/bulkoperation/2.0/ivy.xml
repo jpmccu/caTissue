@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.bulkoperation" module="bulkoperation" revision="2.0"
+		status="release" />
+	<publications>
+		<artifact name="bulkoperator" type="jar" />
+		<artifact name="bulkoperator" type="zip" />
+	</publications>
+</ivy-module>

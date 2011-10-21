@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="taskdef_lib" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="ant-contrib" type="jar" />
+			<artifact name="flexTasks" type="jar" />
+	</publications>
+</ivy-module>

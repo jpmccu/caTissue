@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="third_party_flex_lib" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="asc" type="jar" />
+			<artifact name="batik-awt-util" type="jar" />
+			<artifact name="batik-bridge" type="jar" />
+			<artifact name="batik-css" type="jar" />
+			<artifact name="batik-dom" type="jar" />
+			<artifact name="batik-ext" type="jar" />
+			<artifact name="batik-gvt" type="jar" />
+			<artifact name="batik-parser" type="jar" />
+			<artifact name="batik-script" type="jar" />
+			<artifact name="batik-svg-dom" type="jar" />
+			<artifact name="batik-svggen" type="jar" />
+			<artifact name="batik-transcoder" type="jar" />
+			<artifact name="batik-util" type="jar" />
+			<artifact name="batik-xml" type="jar" />
+			<artifact name="commons-collections" type="jar" />
+			<artifact name="commons-discovery" type="jar" />
+			<artifact name="commons-logging" type="jar" />
+			<artifact name="mm-velocity-1.4" type="jar" />
+			<artifact name="xercesImpl" type="jar" />
+			<artifact name="xmlParserAPIs" type="jar" />
+	</publications>
+</ivy-module>

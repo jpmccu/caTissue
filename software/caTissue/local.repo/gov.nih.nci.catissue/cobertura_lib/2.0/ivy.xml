@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="cobertura_lib" revision="2.0"
+		status="release" />
+		<publications>
+		 <artifact name="asm-2.2.1" type="jar"/>
+		 <artifact name="asm-tree-2.2.1"  type="jar"/>
+		 <artifact name="cobertura"  type="jar"/>
+		 <artifact name="jakarta-oro-2.0.8"  type="jar"/>
+		 <artifact name="log4j"  type="jar"/>
+
+	</publications>
+</ivy-module>

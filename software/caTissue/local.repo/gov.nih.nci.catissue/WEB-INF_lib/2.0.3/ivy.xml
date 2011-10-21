@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="WEB-INF_lib" revision="2.0.3"
+		status="release" />
+		<publications>
+			<artifact name="acrobat-core-charset" type="jar" />
+			<artifact name="activation" type="jar" />
+			<artifact name="asm-1.5.3" type="jar" />
+			<artifact name="backport-util-concurrent" type="jar" />
+			<artifact name="casclient-2.1.1" type="jar" />
+			<artifact name="castor-0.9.9" type="jar" />
+			<artifact name="catiesCC" type="jar" />
+			<artifact name="caTissueCdmsIntegration" type="jar" />
+			<artifact name="cglib-2.1_3" type="jar" />
+			<artifact name="CHIRPS5.0.6" type="jar" />
+			<artifact name="cobertura" type="jar" />
+			<artifact name="cog-jglobus" type="jar" />
+			<artifact name="com.ibm.mq" type="jar" />
+			<artifact name="com.ibm.mqbind" type="jar" />
+			<artifact name="com.ibm.mqjms" type="jar" />
+			<artifact name="commons-beanutils" type="jar" />
+			<artifact name="commons-codec-1.3" type="jar" />
+			<artifact name="commons-digester" type="jar" />
+			<artifact name="commons-fileupload-1.2.1" type="jar" />
+			<artifact name="commons-io-1.2" type="jar" />
+			<artifact name="commons-lang" type="jar" />
+			<artifact name="commons-logging-1.1.1" type="jar" />
+			<artifact name="commons-validator" type="jar" />
+			<artifact name="concurrent" type="jar" />
+			<artifact name="csmapi-4.2" type="jar" />
+			<artifact name="Default_label_barcode_gen" type="jar" />
+			<artifact name="dom4j-1.6.1" type="jar" />
+			<artifact name="flex-bootstrap-jsp" type="jar" />
+			<artifact name="flex-bootstrap" type="jar" />
+			<artifact name="flex-messaging-common" type="jar" />
+			<artifact name="flex-messaging-req" type="jar" />
+			<artifact name="flex-messaging" type="jar" />
+			<artifact name="gate" type="jar" />
+			<artifact name="jaas" type="jar" />
+			<artifact name="jasper-compiler-jdt" type="jar" />
+			<artifact name="jaws" type="jar" />
+			<artifact name="jax-qname" type="jar" />
+			
+			<artifact name="jaxen-core" type="jar" />
+			<artifact name="jaxen-jdom" type="jar" />
+			<artifact name="jboss-jaxws" type="jar" />
+			
+			<artifact name="jdom-1.1" type="jar" />
+			<artifact name="jep-2.4.1" type="jar" />
+			<artifact name="jmi" type="jar" />
+			<artifact name="json" type="jar" />
+			<artifact name="jstl" type="jar" />
+			<artifact name="junit-4.1" type="jar" />
+			<artifact name="label_barcode_gen_client" type="jar" />
+			<artifact name="log4j" type="jar" />
+			<artifact name="lucene-core-2.0.0" type="jar" />
+			<artifact name="mail" type="jar" />
+			<artifact name="mdrapi" type="jar" />
+			<artifact name="mmtxProject" type="jar" />
+			<artifact name="mof" type="jar" />
+			<artifact name="namespace" type="jar" />
+			<artifact name="ontotext" type="jar" />
+			<artifact name="opencsv-1.8" type="jar" />
+			<artifact name="org-netbeans-graph" type="jar" />
+			<artifact name="org-openide-util" type="jar" />
+			<artifact name="PrintCatissueCore_Client" type="jar" />
+			<artifact name="printservice_client" type="jar" />
+			<artifact name="relaxngDatatype" type="jar" />
+			<artifact name="saxpath" type="jar" />
+			<artifact name="script-api-1.0" type="jar" />
+			<artifact name="scrubber-runtime" type="jar" />
+			<artifact name="servlet" type="jar" />
+			<artifact name="jsp" type="jar" />
+			<artifact name="c3pr-wsclient" type="jar" />
+			<artifact name="spring" type="jar" />
+			<artifact name="standard" type="jar" />
+			<artifact name="Stinger-2.6.1" type="jar" />
+			<artifact name="struts-legacy" type="jar" />
+			<artifact name="struts" type="jar" />
+			<artifact name="swingx-2006_10_08" type="jar" />
+			<artifact name="uml-1.4" type="jar" />
+			<artifact name="xalan-2.6.0" type="jar" />
+			<artifact name="xbean" type="jar" />
+			<artifact name="xml-apis" type="jar" />
+			<artifact name="xsdlib" type="jar" />
+
+			<artifact name="xmlrpc-2.0" type="jar" />
+			<artifact name="xercesImpl" type="jar" />
+			<artifact name="jmiutils" type="jar" />
+			
+			<artifact name="sdk-grid-remoting-4.2" type="jar" />
+			<artifact name="sdk-client-framework-4.2" type="jar" />
+			<artifact name="wss4j" type="jar" />
+			
+
+
+<artifact name="axis-url" type="jar" />
+<artifact name="axis" type="jar" />
+<artifact name="caGrid-authentication-service-client-1.4" type="jar" />
+<artifact name="caGrid-authentication-service-common-1.4" type="jar" />
+<artifact name="caGrid-authentication-service-stubs-1.4" type="jar" />
+<artifact name="caGrid-core-1.4" type="jar" />
+<artifact name="caGrid-dorian-client-1.4" type="jar" />
+<artifact name="caGrid-dorian-common-1.4" type="jar" />
+<artifact name="caGrid-dorian-stubs-1.4" type="jar" />
+<artifact name="caGrid-gaards-core-1.4" type="jar" />
+<artifact name="caGrid-gridgrouper-client-1.4" type="jar" />
+<artifact name="caGrid-gridgrouper-common-1.4" type="jar" />
+<artifact name="caGrid-gridgrouper-resources-1.4" type="jar" />
+<artifact name="caGrid-gridgrouper-service-1.4" type="jar" />
+<artifact name="caGrid-gridgrouper-stubs-1.4" type="jar" />
+<artifact name="caGrid-gts-client-1.4" type="jar" />
+<artifact name="caGrid-gts-common-1.4" type="jar" />
+<artifact name="caGrid-gts-stubs-1.4" type="jar" />
+<artifact name="caGrid-IdentifiersNAService-client-1.4-dev" type="jar" />
+<artifact name="caGrid-IdentifiersNAService-common-1.4-dev" type="jar" />
+<artifact name="caGrid-IdentifiersNAService-stubs-1.4-dev" type="jar" />
+<artifact name="caGrid-metadata-common-1.4" type="jar" />
+<artifact name="caGrid-metadata-data-1.4" type="jar" />
+<artifact name="caGrid-metadata-security-1.4" type="jar" />
+<artifact name="caGrid-metadatautils-1.4" type="jar" />
+<artifact name="caGrid-opensaml-1.4" type="jar" />
+<artifact name="caGrid-ServiceSecurityProvider-client-1.4" type="jar" />
+<artifact name="caGrid-ServiceSecurityProvider-common-1.4" type="jar" />
+<artifact name="caGrid-ServiceSecurityProvider-service-1.4" type="jar" />
+<artifact name="caGrid-ServiceSecurityProvider-stubs-1.4" type="jar" />
+<artifact name="caGrid-syncgts-client-1.4" type="jar" />
+<artifact name="caGrid-syncgts-common-1.4" type="jar" />
+<artifact name="caGrid-syncgts-stubs-1.4" type="jar" />
+<artifact name="cog-axis" type="jar" />
+<artifact name="cog-url" type="jar" />
+<artifact name="coppa-commons-1.3.0" type="jar" />
+<artifact name="CoreServices-client" type="jar" />
+<artifact name="CoreServices-common" type="jar" />
+<artifact name="CoreServices-service" type="jar" />
+<artifact name="CoreServices-stubs" type="jar" />
+<artifact name="cryptix-asn1" type="jar" />
+<artifact name="cryptix" type="jar" />
+<artifact name="cryptix32" type="jar" />
+<artifact name="globus_resolution_stubs_java" type="jar" />
+<artifact name="globus_transfer_stubs_java" type="jar" />
+<artifact name="iso-datatypes-2.0" type="jar" />
+<artifact name="iso-datatypes-extensions-2.0" type="jar" />
+<artifact name="jasciidammit-1.1" type="jar" />
+<artifact name="jaxrpc" type="jar" />
+<artifact name="jboss-client" type="jar" />
+
+<artifact name="mobius_common_client-1.1" type="jar" />
+<artifact name="opensaml" type="jar" />
+<artifact name="PAServices-client" type="jar" />
+<artifact name="PAServices-common" type="jar" />
+<artifact name="PAServices-service" type="jar" />
+<artifact name="PAServices-stubs" type="jar" />
+<artifact name="po-services-3.2-SNAPSHOT-client" type="jar" />
+<artifact name="xmlsec" type="jar" />
+<artifact name="dhtmlxconnector" type="jar" />
+<artifact name="caGrid-data-stubs-1.4" type="jar" />
+<artifact name="caGrid-data-common-1.4" type="jar" />
+			
+	</publications>
+</ivy-module>

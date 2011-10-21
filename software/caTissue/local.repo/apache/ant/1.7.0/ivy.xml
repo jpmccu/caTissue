@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl"
+                 href="http://gforge.nci.nih.gov/svnroot/commonlibrary/trunk/ivy-xsl/ivy.xsl"?>
+<ivy-module version="1.3"            
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"       
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">  
+
+  <info organisation="apache" 
+        module="ant"
+        revision="1.7.0"/>
+        
+  <configurations>
+    <conf name="master"/>
+    <conf name="compile"/>
+    <conf name="runtime"/>
+  </configurations>
+  
+  <publications>
+    <artifact name="ant-antlr" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-apache-bcel" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-apache-bsf" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-apache-log4j" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-apache-oro" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-apache-regexp" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-apache-resolver" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-commons-logging" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-commons-net" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-jai" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-javamail" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-jdepend" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-jmf" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-jsch" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-junit" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-launcher" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-netrexx" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-nodeps" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-starteam" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-stylebook" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-swing" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-testutil" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-trax" type="jar" conf="master, compile, runtime" />
+    <artifact name="ant-weblogic" type="jar" conf="master, compile, runtime" />
+    <artifact name="xercesImpl" type="jar" conf="master, compile, runtime" />
+    <artifact name="xml-apis" type="jar" conf="master, compile, runtime" />
+  </publications>
+  
+  <dependencies>               
+  </dependencies>
+  
+</ivy-module>

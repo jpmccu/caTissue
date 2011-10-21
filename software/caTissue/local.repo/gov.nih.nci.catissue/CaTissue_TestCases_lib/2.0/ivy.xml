@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="CaTissue_TestCases_lib" revision="2.0"
+		status="release" />
+		<publications>
+
+<artifact name="c3p0-0.9.0" type="jar"/>
+<artifact name="dbunit-2.4.8" type="jar"/>
+<artifact name="jaxrpc" type="jar"/>
+<artifact name="jboss-common-client" type="jar"/>
+<artifact name="jboss-j2ee" type="jar"/>
+<artifact name="jboss-jaxws" type="jar"/>
+<artifact name="jboss-jmx" type="jar"/>
+<artifact name="jboss-system" type="jar"/>
+<artifact name="jboss-transaction" type="jar"/>
+<artifact name="jbossjta" type="jar"/>
+<artifact name="jbossts-common" type="jar"/>
+<artifact name="jnpserver" type="jar"/>
+<artifact name="poi-3.0.2-FINAL-20080204" type="jar"/>
+<artifact name="saaj" type="jar"/>
+<artifact name="servlet" type="jar"/>
+<artifact name="slf4j-api-1.5.2" type="jar"/>
+<artifact name="slf4j-jcl-1.5.2" type="jar"/>
+<artifact name="strutstest-2.1.3" type="jar"/>
+<artifact name="strutsTestFramework" type="jar"/>
+
+
+	</publications>
+</ivy-module>

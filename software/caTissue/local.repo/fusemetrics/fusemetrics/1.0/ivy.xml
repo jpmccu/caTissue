@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl"
+                 href="http://gforge.nci.nih.gov/svnroot/commonlibrary/trunk/ivy-xsl/ivy.xsl"?>
+<ivy-module version="1.3"            
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"       
+            xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">  
+
+  <info organisation="fusemetrics" 
+        module="fusemetrics"
+        revision="1.0"/>
+        
+  <configurations>
+    <conf name="master"/>
+    <conf name="compile"/>
+    <conf name="runtime"/>
+  </configurations>
+  
+  <publications>
+    <artifact name="fusemetrics" type="jar" conf="master, compile, runtime" />    
+  </publications>
+  
+  <dependencies>               
+	  <dependency org="xom"
+		  name="xom"
+		  rev="1.1"
+		  force="true"
+		  conf="master"/>
+	  <dependency org="jfree"
+		  name="jfreechart"
+		  rev="1.0.9"
+		  force="true"
+		  conf="master"/>
+	  <dependency org="codehaus"
+		  name="groovy"
+		  rev="1.6"
+		  force="true"
+		  conf="master"/>		  
+  </dependencies>
+  
+</ivy-module>

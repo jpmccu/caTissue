@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="third_party_lib" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="c3p0-0.8.4.5" type="jar" />
+			<artifact name="c3p0-0.8.5.2" type="jar" />
+			<artifact name="caGrid-1.0-caDSR-client" type="jar" />
+			<artifact name="caGrid-1.0-caDSR-common" type="jar" />
+			<artifact name="caGrid-1.0-caDSR-stubs" type="jar" />
+			<artifact name="caGrid-1.0-core" type="jar" />
+			<artifact name="caGrid-1.0-data-common" type="jar" />
+			<artifact name="caGrid-1.0-data-stubs" type="jar" />
+			<artifact name="caGrid-1.0-data-utils" type="jar" />
+			<artifact name="caGrid-1.0-fqp-client" type="jar" />
+			<artifact name="caGrid-1.0-fqp-common" type="jar" />
+			<artifact name="caGrid-1.0-fqp-stubs" type="jar" />
+			<artifact name="caGrid-1.0-metadata-common" type="jar" />
+			<artifact name="caGrid-1.0-metadata-security" type="jar" />
+			<artifact name="caGrid-1.0-ServiceSecurityProvider-client" type="jar" />
+			<artifact name="caGrid-1.0-ServiceSecurityProvider-common" type="jar" />
+			<artifact name="catissuecore-client" type="jar" />
+			<artifact name="cglib-2.1" type="jar" />
+			<artifact name="commons-collections-2.1.1" type="jar" />
+			<artifact name="commons-fileupload" type="jar" />
+			<artifact name="commons-logging-1.0.4" type="jar" />
+			<artifact name="dom4j-1.6" type="jar" />
+			<artifact name="ehcache-1.1" type="jar" />
+			<artifact name="j2ee" type="jar" />
+			<artifact name="jakarta-oro" type="jar" />
+			<artifact name="junit-3.8.1" type="jar" />
+			<artifact name="mysql-connector-java-5.0.8-bin" type="jar" />
+			<artifact name="openide-util" type="jar" />
+			<artifact name="wsdl4j" type="jar" />
+			<artifact name="xalan-2.4.0" type="jar" />
+	</publications>
+</ivy-module>

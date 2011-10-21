@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="flex_jar" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="flex-messaging-common" type="jar"/>
+			<artifact name="flex-webtier" type="jar"/>
+			<artifact name="flexTasks" type="jar"/>
+			<artifact name="license" type="jar"/>
+			<artifact name="mxmlc" type="jar"/>
+			<artifact name="oscache" type="jar"/>
+			<artifact name="swfkit" type="jar"/>
+	</publications>
+</ivy-module>

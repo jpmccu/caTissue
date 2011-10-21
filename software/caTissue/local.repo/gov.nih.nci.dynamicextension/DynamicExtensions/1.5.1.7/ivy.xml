@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.dynamicextension" module="DynamicExtensions" revision="1.5.1.7"
+		status="release" />
+	<publications>
+		<artifact name="DynamicExtensions" type="jar" />
+		<artifact name="dynamicextensions" type="zip" />
+		<artifact name="clientFormCreator" type="zip" />
+	</publications>
+</ivy-module>

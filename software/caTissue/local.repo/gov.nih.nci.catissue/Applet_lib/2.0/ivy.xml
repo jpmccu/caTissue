@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="Applet_lib" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="CaTissueApplet" type="jar" />
+			<artifact name="java.policy" type="applet" />
+			<artifact name="org-openide-util" type="jar" />
+			<artifact name="swingx-2006_10_08" type="jar" />
+	</publications>
+</ivy-module>

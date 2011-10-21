@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0">
+	<info organisation="gov.nih.nci.catissue" module="CaTissueSuite_caGrid_Service" revision="2.0"
+		status="release" />
+		<publications>
+			<artifact name="activation" type="jar" />
+			<artifact name="antlr-2.7.6" type="jar" />
+			<artifact name="antlr-2.7.6rc1" type="jar" />
+			<artifact name="asm-attrs" type="jar" />
+			<artifact name="asm" type="jar" />
+			<artifact name="c3p0-0.8.5.2" type="jar" />
+			<artifact name="caGrid-advertisement-1.2" type="jar" />
+			<artifact name="caGrid-authz-common-1.2" type="jar" />
+			<artifact name="caGrid-caDSR-client-1.2" type="jar" />
+			<artifact name="caGrid-caDSR-common-1.2" type="jar" />
+			<artifact name="caGrid-caDSR-portal-1.2" type="jar" />
+			<artifact name="caGrid-caDSR-service-1.2" type="jar" />
+			<artifact name="caGrid-caDSR-stubs-1.2" type="jar" />
+			<artifact name="caGrid-caDSR-tests-1.2" type="jar" />
+			<artifact name="caGrid-core-1.2" type="jar" />
+			<artifact name="caGrid-core-resources-1.2" type="jar" />
+			<artifact name="caGrid-data-common-1.2" type="jar" />
+			<artifact name="caGrid-data-cql-1.2" type="jar" />
+			<artifact name="caGrid-data-service-1.2" type="jar" />
+			<artifact name="caGrid-data-stubs-1.2" type="jar" />
+			<artifact name="caGrid-data-tools-1.2" type="jar" />
+			<artifact name="caGrid-data-utils-1.2" type="jar" />
+			<artifact name="caGrid-data-validation-1.2" type="jar" />
+			<artifact name="caGrid-dataExtensions-sdkstyle-1.2" type="jar" />
+			<artifact name="caGrid-dataExtensions-style-cacore32-1.2" type="jar" />
+			<artifact name="caGrid-gridgrouper-client-1.2" type="jar" />
+			<artifact name="caGrid-gridgrouper-common-1.2" type="jar" />
+			<artifact name="caGrid-gridgrouper-stubs-1.2" type="jar" />
+			<artifact name="caGrid-Introduce-serviceTools-1.2" type="jar" />
+			<artifact name="caGrid-metadata-common-1.2" type="jar" />
+			<artifact name="caGrid-metadata-data-1.2" type="jar" />
+			<artifact name="caGrid-metadata-security-1.2" type="jar" />
+			<artifact name="caGrid-metadatautils-1.2" type="jar" />
+			<artifact name="caGrid-sdkQuery32-core-1.2" type="jar" />
+			<artifact name="caGrid-ServiceSecurityProvider-client-1.2" type="jar" />
+			<artifact name="caGrid-ServiceSecurityProvider-common-1.2" type="jar" />
+			<artifact name="caGrid-ServiceSecurityProvider-service-1.2" type="jar" />
+			<artifact name="caGrid-ServiceSecurityProvider-stubs-1.2" type="jar" />
+			<artifact name="castor-1.0.2" type="jar" />
+			<artifact name="catissuecore-client" type="jar" />
+			<artifact name="catissuecore" type="jar" />
+			<artifact name="cglib-2.1.3" type="jar" />
+			<artifact name="cglib-2.1_3" type="jar" />
+			<artifact name="clm" type="jar" />
+			<artifact name="commons-dbcp-1.2.1" type="jar" />
+			<artifact name="commons-discovery-0.2" type="jar" />
+			<artifact name="commons-lang-1.0.1" type="jar" />
+			<artifact name="commons-logging-1.0.4" type="jar" />
+			<artifact name="commons-logging-1.1" type="jar" />
+			<artifact name="csmapi" type="jar" />
+			<artifact name="dom4j-1.6.1" type="jar" />
+			<artifact name="ehcache-1.1" type="jar" />
+			<artifact name="globus_wsrf_mds_aggregator" type="jar" />
+			<artifact name="globus_wsrf_mds_aggregator_stubs" type="jar" />
+			<artifact name="globus_wsrf_servicegroup" type="jar" />
+			<artifact name="globus_wsrf_servicegroup_stubs" type="jar" />
+			<artifact name="grouper" type="jar" />
+			<artifact name="hibernate3" type="jar" />
+			<artifact name="jdom-1.0" type="jar" />
+			<artifact name="jta-1.0.1B" type="jar" />
+			<artifact name="jtds-1.2" type="jar" />
+			<artifact name="log4j-1.2.13" type="jar" />
+			<artifact name="mail" type="jar" />
+			<artifact name="mysql-connector-java-3.0.16-ga-bin" type="jar" />
+			<artifact name="README" type="txt" />
+			<artifact name="remoteService" type="xml" />
+			<artifact name="spring-aop-1.2.8" type="jar" />
+			<artifact name="spring-beans-1.2.8" type="jar" />
+			<artifact name="spring-context-1.2.8" type="jar" />
+			<artifact name="spring-core-1.2.8" type="jar" />
+			<artifact name="spring-richclient-full-0.1.0" type="jar" />
+			<artifact name="spring-web-1.2.8" type="jar" />
+			<artifact name="spring" type="jar" />
+			<artifact name="struts" type="jar" />
+			<artifact name="subject-0.2.1" type="jar" />
+			<artifact name="wsdl4j-1.5.1" type="jar" />
+
+	</publications>
+</ivy-module>
