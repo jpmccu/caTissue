@@ -1,0 +1,9 @@
+<ivy-module version="1.0">
+  <info organisation="gov.nih.nci.simplequery"
+        module="SimpleQuery"
+        revision="1.1.9.3"
+        />
+  <publications>
+    <artifact name="SimpleQuery-1.1.9.3" type="jar" />
+  </publications>
+</ivy-module>
