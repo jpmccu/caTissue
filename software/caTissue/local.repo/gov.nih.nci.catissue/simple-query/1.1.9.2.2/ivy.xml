@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0">
-	<info organisation="gov.nih.nci.simplequery" module="SimpleQuery" revision="1.1.9.2.2"
+	<info organisation="gov.nih.nci.catissue" module="simple-query" revision="1.1.9.2.2"
 		status="release" />
 	<publications>
 		<artifact name="SimpleQuery" type="jar" />

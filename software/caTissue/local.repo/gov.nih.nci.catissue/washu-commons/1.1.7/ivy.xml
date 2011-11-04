@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0">
-	<info organisation="gov.nih.nci.washu-commons" module="washu-commons" revision="1.1.7"
+	<info organisation="gov.nih.nci.catissue" module="washu-commons" revision="1.1.7"
 		status="release" />
 	<publications>
 		<artifact name="washu-commons" type="jar" />

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0">
-	<info organisation="gov.nih.nci.dao" module="dao" revision="1.1.9.5.1"
-		status="release" />
+	<info organisation="gov.nih.nci.catissue" module="dao" revision="1.1.9.5.1" status="release" />
 	<publications>
 		<artifact name="DAO" type="jar" />
 	</publications>
