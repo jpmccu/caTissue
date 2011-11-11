@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ivy-module version="2.1">
+<ivy-module version="2.0">
 	<info organisation="gov.nih.nci.catissue" module="bulk-operations" revision="2.1" status="release" />
 	<publications>
 		<artifact name="bulkoperator" type="jar" />
