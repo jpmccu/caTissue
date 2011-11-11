@@ -92,6 +92,9 @@
 			<artifact name="sdk-client-framework-4.2" type="jar" />
 			<artifact name="wss4j" type="jar" />
 			
+			<artifact name="commons-beanutils-1.8.3" type="jar" />
+			<artifact name="commons-digester3-3.0" type="jar" />
+			
 
 
 <artifact name="axis-url" type="jar" />
