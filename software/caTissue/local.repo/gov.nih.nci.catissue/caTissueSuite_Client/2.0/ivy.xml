@@ -15,7 +15,9 @@
 		<artifact name="catissuecore-client" type="jar" />
 		<artifact name="cglib-2.1_3" type="jar" />
 		<artifact name="cobertura" type="jar" />
+		<artifact name="commons-beanutils-1.8.3" type="jar" />
 		<artifact name="commons-codec-1.3" type="jar" />
+		<artifact name="commons-digester3-3.0" type="jar" />
 		<artifact name="commons-discovery-0.2" type="jar" />
 		<artifact name="commons-httpclient-3.0.1" type="jar" />
 		<artifact name="commons-logging-1.1.1" type="jar" />
