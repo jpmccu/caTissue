@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ivy-module version="2.0">
-	<info organisation="gov.nih.nci.catissue" module="advanced-query" revision="1.3.1"
-		status="release" />
-	<publications>
-		<artifact name="AdvanceQuery" type="jar" />
-	</publications>
-</ivy-module>
